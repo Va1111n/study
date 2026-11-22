@@ -1,5 +1,7 @@
 # 从这里开始 · 读懂船的定位节点
 
+扩写版按实际执行顺序逐行拆开 `main`、构造函数、订阅回调、三路缓存和位置发布。第一次读项目可以从那里开始。[定位节点逐行跟读](deep/01-first-read.md)
+
 打开船工程的 `orangpi_ros2/src/usv_localization/src/pose_node.cpp`。它收集缆长、方位角和深度，算出子船相对母船的三维位置。第一次读时先找四个位置，顺着程序运行顺序看。[工程中的定位源码](https://github.com/Va1111n/ros2-ship/blob/main/orangpi_ros2/src/usv_localization/src/pose_node.cpp)
 
 | 先找哪里 | 程序在做什么 |

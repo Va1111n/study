@@ -1,5 +1,7 @@
 # 用 C 的经验读懂船里的 C++
 
+这页是简明回顾。想看完整的 C 和 C++ 对照程序，可以从[变量、引用和可选值详解](deep/02-cpp-symbols.md)接到[类、构造与回调详解](deep/03-objects-and-callbacks.md)。
+
 先打开 `pose_node.cpp`，找到 `length_`、`subscribe_scalar` 和 `publish_position`。这些名字分别对应存储、接收和计算。下面按你会在它们周围遇到的写法来讲。
 
 ## 第 02 课 · 类型、常量和数值计算

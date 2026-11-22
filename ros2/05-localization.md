@@ -1,5 +1,7 @@
 # 沿着真实数据读无人船的定位
 
+这页是简明回顾。扩写版会分别代入四元数、标定角度、三角形边长和坐标变换，讲清每个数从哪一步来。[定位数据逐步推导](deep/06-localization-step-by-step.md)
+
 先对照 `orangpi_ros2/src/usv_localization/` 中的四个 C++ 节点，再看可选滤波器。下面的箭头表示话题消息的流向。
 
 ```text

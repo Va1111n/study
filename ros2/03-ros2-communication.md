@@ -1,5 +1,7 @@
 # 读懂节点怎样收消息和发消息
 
+这页保留了完整的缆长转换节点。要从发送者、执行器和订阅者三个角度跟读，可以先读[话题通信详解](deep/04-topic-from-scratch.md)，再看[如何把示例编成完整功能包](deep/10-build-a-teaching-package.md)。
+
 ## 第 12 课 · 从缆长话题认识 ROS 2
 
 ROS 是 Robot Operating System（机器人操作系统）。这个项目把采集、计算和融合拆成多个节点，它们通过约定的接口交换数据。
